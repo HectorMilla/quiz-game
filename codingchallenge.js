@@ -25,7 +25,7 @@ let answerChoice = allQuestions [questionPicker].answerChoices;
 let askQuestion = function (questions) {
     console.log(questions[questionPicker].question)
     for(i = 0; i < answerChoice.length; i++) {
-        let answers = i + '.)' + answerChoice[i] 
+        let answers = i + '.)' + answerChoice[   i] 
         console.log(answers)   
     }
 
